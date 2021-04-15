@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menghitung Luas Persegi Panjang"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="0dp"/>
+
+        <EditText
+            android:id="@+id/et_panjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Panjang"/>
+
+        <EditText
+            android:id="@+id/et_lebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Lebar" />
+
+         <Button
+             android:id="@+id/btn_hitung_luas_persegi_panjang"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Hitung Luas Persegi Panjang"/>
+        <Button
+            android:id="@+id/btn_hitung_keliling_persegi_panjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hitung Keliling Persegi Panjang"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="0dp"/>
+
+        <TextView
+            android:id="@+id/tv_hasil_luas_persegi_panjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            android:padding="16dp"
+            android:layout_margin="0dp"
+            android:text="Hasil Luas"
+            android:textAlignment="center"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/tv_hasil_keliling_persegi_panjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            android:padding="16dp"
+            android:layout_margin="0dp"
+            android:text="Hasil Keliling"
+            android:textAlignment="center"
+            android:textColor="@color/white"/>
+
+
+
+
+
+
+    </LinearLayout>
